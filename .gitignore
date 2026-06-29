@@ -36,6 +36,9 @@ doc/**/*.txt
 # Исключение из предыдущего правила
 !/logs/.gitkeep
 
+# Игнорируем файл с секретами (PAUL)
+secrets.txt
+
 # Основные правила для macOS, но лучше использовать macOS.gitignore из коллекции
 .DS_Store
 .localized
